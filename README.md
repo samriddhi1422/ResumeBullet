@@ -1,4 +1,4 @@
-```markdown
+
 # 🚀 Resume Bullet Point Generator
 
 Transform simple resume descriptions into impactful, ATS-friendly bullet points.
@@ -6,6 +6,10 @@ Transform simple resume descriptions into impactful, ATS-friendly bullet points.
 ## 📌 Overview
 
 Resume Bullet Point Generator helps job seekers create stronger resume content by converting basic descriptions into professional, achievement-oriented bullet points. The tool encourages the use of action verbs, measurable impact, and recruiter-friendly language.
+
+🔗 **Live Demo:** [your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)  
+🏆 **Built for:** [Digital Heroes](https://digitalheroesco.com)  
+👩‍💻 **Built by:** Samriddhi Shrivastava · samriddhi1422@gmail.com
 
 ## ✨ Features
 
@@ -18,23 +22,38 @@ Resume Bullet Point Generator helps job seekers create stronger resume content b
 
 ## 🛠️ Tech Stack
 
-- React.js
-- Vite
-- Tailwind CSS
-- JavaScript (ES6+)
+| Layer | Technology |
+|---|---|
+| Frontend | React 18, Vite, Tailwind CSS |
+| AI Model | LLaMA 3.3 70B via Groq API |
+| API | NodeJs |
+| Deployment | Vercel (free Hobby plan) |
+
 
 ## 📂 Project Structure
 
 ```
+resumebulletpoint/
+├── public/                  # Static assets
+├── server/                  
+│   └── index.js          # Calls Groq API, 
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx       # Top nav with Digital Heroes badge
+│   │   ├── ToneSelector.jsx # Pill buttons for tone selection
+│   │   └── BulletCard.jsx   # Individual bullet with copy button
+│   ├── App.jsx              # Main app, state, and API call logic
+│   ├── main.jsx             # React entry point
+│   └── index.css            # Tailwind imports + base styles
+├── .gitignore
+├── eslint.config.js
+├── index.html               # Vite HTML entry point
+├── package.json
+├── package-lock.json
+├── vite.config.js           # Vite configuration
+└── README.md
+```
 
-src/
-├── components/
-├── pages/
-├── assets/
-├── App.jsx
-└── main.jsx
-
-````
 
 ## ⚙️ Installation
 
