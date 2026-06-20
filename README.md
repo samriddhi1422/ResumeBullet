@@ -1,16 +1,96 @@
-# React + Vite
+```markdown
+# 🚀 Resume Bullet Point Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Transform simple resume descriptions into impactful, ATS-friendly bullet points.
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Resume Bullet Point Generator helps job seekers create stronger resume content by converting basic descriptions into professional, achievement-oriented bullet points. The tool encourages the use of action verbs, measurable impact, and recruiter-friendly language.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Generate professional resume bullet points
+- ATS-friendly suggestions
+- Strong action verb recommendations
+- Impact-focused writing guidance
+- Responsive and modern UI
+- Real-time input and output
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+
+## 📂 Project Structure
+
+```
+
+src/
+├── components/
+├── pages/
+├── assets/
+├── App.jsx
+└── main.jsx
+
+````
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/samriddhi1422/ResumeBullet.git
+````
+
+2. Navigate to the project directory
+
+```bash
+cd resumebulletpoint
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open in browser
+
+```
+http://localhost:5173
+```
+
+## 🎯 Example
+
+**Input**
+
+```
+Made a website for a college event
+```
+
+**Output**
+
+```
+Developed and deployed a responsive event website that improved event visibility and streamlined participant registration.
+```
+
+
+
+## 👩‍💻 Author
+
+**Samriddhi Shrivastava**
+
+* GitHub: https://github.com/samriddhi1422
+
+
+
+```
+```
