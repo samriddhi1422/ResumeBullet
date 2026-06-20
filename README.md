@@ -7,7 +7,7 @@ Transform simple resume descriptions into impactful, ATS-friendly bullet points.
 
 Resume Bullet Point Generator helps job seekers create stronger resume content by converting basic descriptions into professional, achievement-oriented bullet points. The tool encourages the use of action verbs, measurable impact, and recruiter-friendly language.
 
-🔗 **Live Demo:** [your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)  
+🔗 **Live Demo:** [https://resume-bullet.vercel.app/](https://resume-bullet.vercel.app/)  
 🏆 **Built for:** [Digital Heroes](https://digitalheroesco.com)  
 👩‍💻 **Built by:** Samriddhi Shrivastava · samriddhi1422@gmail.com
 
